@@ -83,6 +83,8 @@ namespace ZooMonkey
 			Actions = new List<ZooMonkeyAction>();
 		}
 
+		[DataMember]
+		public string XamlUrl { get; set; }
 		// FIXME: should be IList. Replace it once moonlight fix went into release
 		[DataMember]
 		public List<ImageDefinition> Images { get; set; }

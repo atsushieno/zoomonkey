@@ -13,5 +13,6 @@
   {"ImageUrl":"samples/images/image3.png","Points":[22,172,141,116]},
   {"ImageUrl":"samples/images/image4.png","Points":[194,174,162,114]},
   {"ImageUrl":"samples/images/image5.png","Points":[276,87,112,81]}],
-"NonHighlightedOpacity":0
+"NonHighlightedOpacity":0,
+"XamlUrl":"zmdata.xaml"
 }

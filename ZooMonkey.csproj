@@ -99,6 +99,11 @@
     <Content Include="samples\zmdata.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="samples\zmdata.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <None Include="Bin\Debug\index.html">
     </None>
     <None Include="samples\images\image1.png">

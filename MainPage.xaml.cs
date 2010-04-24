@@ -12,6 +12,7 @@ using System.Windows.Browser;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Media.Animation;
+using System.Windows.Markup;
 
 
 namespace ZooMonkey
@@ -24,6 +25,7 @@ namespace ZooMonkey
 			this.Loaded += delegate { Run (); };
 		}
 
+		UIElement custom_xaml;
 		ZooMonkeyData zmdata;
 
 		ScaleTransform scale_transform = new ScaleTransform ();
@@ -68,9 +70,14 @@ namespace ZooMonkey
 
 		void ZMDataRestored ()
 		{
+			if (zmdata.XamlUrl != null) {
+				DoDownload ("samples/zmdata.xaml", delegate (Stream stream) {
+					custom_xaml = (UIElement) XamlReader.Load (new StreamReader (stream).ReadToEnd ());
+					Children.Add(custom_xaml);
+				});
+			}
 			//DumpSerializedData(zmdata);
-			foreach (var idef in zmdata.Images)
-			{
+			foreach (var idef in zmdata.Images) {
 				var img = new Image () { Source = new BitmapImage (new Uri (idef.ImageUrl, UriKind.Relative)), Width = idef.Width, Height = idef.Height };
 				Canvas.SetLeft (img, idef.Left);
 				Canvas.SetTop (img, idef.Top);
@@ -87,31 +94,34 @@ namespace ZooMonkey
 			Debug.WriteLine (new StreamReader (ms).ReadToEnd ());
 		}
 
-		void RestoreDataAsync ()
+		// download data either via package content (in case it is file URI and cannot read relative resource)
+		// or remote content (via web server)
+		void DoDownload (string url, Action<Stream> action)
 		{
 			var baseUri = Application.Current.Host.Source;
-			if (baseUri.Scheme == Uri.UriSchemeFile)
-			{
-				var ms = Application.GetResourceStream (new Uri("samples/zmdata.json", UriKind.Relative)).Stream;
-				var ser = new DataContractJsonSerializer (typeof(ZooMonkeyData));
-				zmdata = (ZooMonkeyData) ser.ReadObject (ms);
-				ZMDataRestored();
-			}
-			else
-			{
+			if (baseUri.Scheme == Uri.UriSchemeFile) {
+				var ms = Application.GetResourceStream (new Uri (url, UriKind.Relative)).Stream;
+				action (ms);
+			} else {
 				var wc = new WebClient ();
-				wc.DownloadStringCompleted += delegate (object o, DownloadStringCompletedEventArgs e)
-				{
+				wc.DownloadStringCompleted += delegate (object o, DownloadStringCompletedEventArgs e) {
 					if (e.Cancelled)
 						return;
 					var s = e.Result;
-					var ser = new DataContractJsonSerializer (typeof (ZooMonkeyData));
-					zmdata = (ZooMonkeyData) ser.ReadObject (new MemoryStream (Encoding.UTF8.GetBytes (s)));
-					ZMDataRestored ();
+					action (new MemoryStream (Encoding.UTF8.GetBytes (s)));
 				};
-				var uri = new Uri (Application.Current.Host.Source, "./samples/zmdata.json");
+				var uri = new Uri (Application.Current.Host.Source, "./" + url);
 				wc.DownloadStringAsync (uri);
 			}
+		}
+
+		void RestoreDataAsync ()
+		{
+			DoDownload("samples/zmdata.json", delegate(Stream s) {
+				var ser = new DataContractJsonSerializer (typeof (ZooMonkeyData));
+				zmdata = (ZooMonkeyData) ser.ReadObject (s);
+				ZMDataRestored ();
+			});
 		}
 
 		int current_action = -1;
@@ -119,8 +129,7 @@ namespace ZooMonkey
 		[ScriptableMember]
 		public void ButtonNextPressed ()
 		{
-			if (current_action + 1 < zmdata.Actions.Count)
-			{
+			if (current_action + 1 < zmdata.Actions.Count) {
 				current_action++;
 				var action = zmdata.Actions [current_action];
 				RunAction (action);
@@ -130,8 +139,7 @@ namespace ZooMonkey
 		[ScriptableMember]
 		public void ButtonPreviousPressed ()
 		{
-			if (current_action > 0)
-			{
+			if (current_action > 0) {
 				--current_action;
 				var action = zmdata.Actions [current_action];
 				RunAction (action);
