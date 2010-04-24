@@ -2,9 +2,12 @@ Zoomonkey is a prezi[*1]-like presentation tool based on Silverlight and Moonlig
 
 I have no documentation so far, but you might be able to create your own presentation with your own "zmdata.json" file.
 
-Basically, the presentation data has a set of image files and action lists.
-Images are loaded dynamically from the URLs, and actions are mapped to [<<] and [>>] buttons.
+Basically, the presentation data has an optional xaml file, a set of image files and action lists.
+XAML UI element and Images are loaded dynamically from the URLs, and actions are mapped to [<<] and [>>] buttons. It would be quite useful to just load xaml.
+
+You can see a sample running online [*2].
 
 So far it's quite simple. Advanced features may come later.
 
 [*1] http://prezi.com/
+[*2] http://dl.dropbox.com/u/493047/zoomonkey2/bin/Debug/index.html
