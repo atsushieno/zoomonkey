@@ -159,6 +159,7 @@ namespace ZooMonkey
 		{
 			foreach (var ani in anims)
 				ani.Duration = new Duration (TimeSpan.FromSeconds (action.Duration));
+			Debug.WriteLine("{0},{1} {2}x, r{3}", action.Left, action.Top, action.Zoom, action.Angle);
 			aniSX.To = action.Zoom;
 			aniSY.To = action.Zoom;
 			aniCX.To = action.Left;

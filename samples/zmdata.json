@@ -1,18 +1,15 @@
 ﻿{
 "Actions":[
-  {"Angle":0,"Duration":0.5,"Left":22,"Top":54,"Zoom":2},
-  {"Angle":90,"Duration":1,"Left":194,"Top":0,"Zoom":3},
-  {"Angle":0,"Duration":0.5,"Left":22,"Top":172,"Zoom":2},
-  {"Angle":-680,"Duration":2,"Left":40,"Top":132,"Zoom":3},
-  {"Angle":-90,"Duration":1,"Left":194,"Top":174,"Zoom":4},
-  {"Angle":0,"Duration":1,"Left":276,"Top":87,"Zoom":3}],
+  {"Angle":0,    "Duration":0.5, "Left":190,  "Top":400,  "Zoom":3.8},
+  {"Angle":0,    "Duration":1, "Left":200,  "Top":350,  "Zoom":8},
+  {"Angle":0,    "Duration":1.5, "Left":70,  "Top":330, "Zoom":6},
+  {"Angle":90,    "Duration":1.5, "Left":170,  "Top":280, "Zoom":8},
+  {"Angle":0,    "Duration":1.5, "Left":0,  "Top":280, "Zoom":7}
+  ],
+  
 "HighlightClosestImage":false,
 "Images":[
-  {"ImageUrl":"samples/images/image1.png","Points":[22,54,166,114]},
-  {"ImageUrl":"samples/images/image2.png","Points":[194,0,143,90]},
-  {"ImageUrl":"samples/images/image3.png","Points":[22,172,141,116]},
-  {"ImageUrl":"samples/images/image4.png","Points":[194,174,162,114]},
-  {"ImageUrl":"samples/images/image5.png","Points":[276,87,112,81]}],
+  {"ImageUrl":"samples/images/monomeeting20100427.png","Points":[0, 0, 600, 600]}],
 "NonHighlightedOpacity":0,
 "XamlUrl":"zmdata.xaml"
 }

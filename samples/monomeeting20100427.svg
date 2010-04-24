@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="3000"
+   height="3000"
+   id="svg3531"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="monomeeting20100427.svg"
+   inkscape:export-filename="C:\Users\atsushi\Desktop\monomeeting20100427.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs3533">
+    <linearGradient
+       id="linearGradient4562">
+      <stop
+         style="stop-color:#8040ff;stop-opacity:0.3764706;"
+         offset="0"
+         id="stop4564" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop4566" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 600 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1600 : 600 : 1"
+       inkscape:persp3d-origin="800 : 400 : 1"
+       id="perspective3539" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4562"
+       id="radialGradient4570"
+       cx="577.89282"
+       cy="1681.8116"
+       fx="577.89282"
+       fy="1681.8116"
+       r="279.66669"
+       gradientTransform="matrix(1,0,0,0.51890837,0,809.10551)"
+       gradientUnits="userSpaceOnUse" />
+    <inkscape:perspective
+       id="perspective4580"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4562-5"
+       id="radialGradient4570-1"
+       cx="577.89282"
+       cy="1681.8116"
+       fx="577.89282"
+       fy="1681.8116"
+       r="279.66669"
+       gradientTransform="matrix(1,0,0,0.51890837,0,809.10551)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient4562-5">
+      <stop
+         style="stop-color:#8040ff;stop-opacity:0.3764706;"
+         offset="0"
+         id="stop4564-9" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop4566-5" />
+    </linearGradient>
+    <radialGradient
+       r="279.66669"
+       fy="1681.8116"
+       fx="577.89282"
+       cy="1681.8116"
+       cx="577.89282"
+       gradientTransform="matrix(1,0,0,0.51890837,0,809.10551)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient4589"
+       xlink:href="#linearGradient4562-5"
+       inkscape:collect="always" />
+    <inkscape:perspective
+       id="perspective4624"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <radialGradient
+       r="279.66669"
+       fy="1681.8116"
+       fx="577.89282"
+       cy="1681.8116"
+       cx="577.89282"
+       gradientTransform="matrix(1,0,0,0.51890837,0,809.10551)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient4589-3"
+       xlink:href="#linearGradient4562-5-5"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient4562-5-5">
+      <stop
+         style="stop-color:#8040ff;stop-opacity:0.3764706;"
+         offset="0"
+         id="stop4564-9-2" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop4566-5-8" />
+    </linearGradient>
+    <radialGradient
+       r="279.66669"
+       fy="1681.8116"
+       fx="577.89282"
+       cy="1681.8116"
+       cx="577.89282"
+       gradientTransform="matrix(1,0,0,0.51890837,0,809.10551)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient4633"
+       xlink:href="#linearGradient4562-5-5"
+       inkscape:collect="always" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.58585"
+     inkscape:cx="639.17577"
+     inkscape:cy="1713.0173"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="721"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3536">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     transform="translate(0,1800)">
+    <path
+       sodipodi:type="arc"
+       style="fill:url(#radialGradient4633);fill-opacity:1;stroke:none"
+       id="path3788-1-0"
+       sodipodi:cx="577.89282"
+       sodipodi:cy="1681.8116"
+       sodipodi:rx="279.16669"
+       sodipodi:ry="144.62138"
+       d="m 857.05951,1681.8116 c 0,79.8722 -124.98718,144.6214 -279.16669,144.6214 -154.1795,0 -279.16668,-64.7492 -279.16668,-144.6214 0,-79.8721 124.98718,-144.6213 279.16668,-144.6213 154.17951,0 279.16669,64.7492 279.16669,144.6213 z"
+       transform="translate(-337.25233,-2056.0509)" />
+    <path
+       sodipodi:type="arc"
+       style="fill:url(#radialGradient4589);fill-opacity:1;stroke:none"
+       id="path3788-1"
+       sodipodi:cx="577.89282"
+       sodipodi:cy="1681.8116"
+       sodipodi:rx="279.16669"
+       sodipodi:ry="144.62138"
+       d="m 857.05951,1681.8116 a 279.16669,144.62138 0 1 1 -558.33337,0 279.16669,144.62138 0 1 1 558.33337,0 z"
+       transform="matrix(0,-0.87159875,0.82886098,0,-555.05166,-42.612997)" />
+    <text
+       xml:space="preserve"
+       style="font-size:21.42508507px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="478.20789"
+       y="469.18991"
+       id="text3561"
+       transform="scale(1.0712543,0.93348518)"><tspan
+         sodipodi:role="line"
+         x="478.20789"
+         y="469.18991"
+         id="tspan3573" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:63.99999996px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="1214.8903"
+       y="50.491604"
+       id="text3575"
+       transform="scale(1.0633997,0.94038018)"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3577"
+         x="1214.8903"
+         y="50.491604">Topics</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Georgia;-inkscape-font-specification:Georgia"
+       x="1459.103"
+       y="-160.38861"
+       id="text3579"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3581"
+         x="1459.103"
+         y="-160.38861">New Garbage Collection</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Georgia;-inkscape-font-specification:Georgia"
+       x="1627.26"
+       y="218.95934"
+       id="text3583"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3585"
+         x="1627.26"
+         y="218.95934">Moonlight</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Georgia;-inkscape-font-specification:Georgia"
+       x="1725.6514"
+       y="18.261911"
+       id="text3587"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3589"
+         x="1725.6514"
+         y="18.261911">.NET 4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Georgia;-inkscape-font-specification:Georgia"
+       x="984.38867"
+       y="203.1058"
+       id="text3591"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3593"
+         x="984.38867"
+         y="203.1058">MonoDroid</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Georgia;-inkscape-font-specification:Georgia"
+       x="749.99554"
+       y="116.81664"
+       id="text3595"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3597"
+         x="749.99554"
+         y="116.81664">MonoTouch</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Georgia;-inkscape-font-specification:Georgia"
+       x="878.62506"
+       y="-113.45303"
+       id="text3629"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3631"
+         x="878.62506"
+         y="-113.45303">Mono (re)introduction </tspan><tspan
+         sodipodi:role="line"
+         x="878.62506"
+         y="-63.453037"
+         id="tspan3633" /><tspan
+         sodipodi:role="line"
+         x="878.62506"
+         y="-13.453036"
+         id="tspan3635" /><tspan
+         sodipodi:role="line"
+         x="878.62506"
+         y="36.546963"
+         id="tspan3637" /><tspan
+         sodipodi:role="line"
+         x="878.62506"
+         y="86.546967"
+         id="tspan3641" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="641.31287"
+       y="1426.946"
+       id="text3645"
+       transform="translate(0,-1800)"><tspan
+         sodipodi:role="line"
+         x="641.31287"
+         y="1879.7592"
+         id="tspan3665" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="342.58667"
+       y="-274.66388"
+       id="text3721"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3723"
+         x="342.58667"
+         y="-274.66388"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:MS UI Gothic;-inkscape-font-specification:MS UI Gothic">・</tspan><tspan
+         sodipodi:role="line"
+         x="342.58667"
+         y="-254.66388"
+         id="tspan3725"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:MS UI Gothic;-inkscape-font-specification:MS UI Gothic">　- .NET Framework (実行環境)</tspan><tspan
+         sodipodi:role="line"
+         x="342.58667"
+         y="-234.66388"
+         id="tspan3727"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:MS UI Gothic;-inkscape-font-specification:MS UI Gothic">　　 CLR (VM, JIT, GC, P/Invoke)</tspan><tspan
+         sodipodi:role="line"
+         x="342.58667"
+         y="-214.66388"
+         id="tspan3729"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:MS UI Gothic;-inkscape-font-specification:MS UI Gothic">　- class libs</tspan><tspan
+         sodipodi:role="line"
+         x="342.58667"
+         y="-194.66388"
+         id="tspan3731"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:MS UI Gothic;-inkscape-font-specification:MS UI Gothic">　　core, WinForms, ASP.NET, ADO.NET, WPF, WCF, WF...</tspan><tspan
+         sodipodi:role="line"
+         x="342.58667"
+         y="-174.66388"
+         id="tspan3733"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:MS UI Gothic;-inkscape-font-specification:MS UI Gothic">　- Windows SDK, Visual Studio (開発環境)</tspan><tspan
+         sodipodi:role="line"
+         x="342.58667"
+         y="-154.66388"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:MS UI Gothic;-inkscape-font-specification:MS UI Gothic"
+         id="tspan3782">　　 C#, VB.NET, F#... </tspan><tspan
+         sodipodi:role="line"
+         x="342.58667"
+         y="-134.66388"
+         id="tspan3735"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:MS UI Gothic;-inkscape-font-specification:MS UI Gothic">　- Silverlight, XNA (XBox etc.) ...</tspan><tspan
+         sodipodi:role="line"
+         x="342.58667"
+         y="-114.66387"
+         id="tspan3741"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:MS UI Gothic;-inkscape-font-specification:MS UI Gothic" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="386.50842"
+       y="834.94733"
+       id="text3748"
+       sodipodi:linespacing="100%"
+       transform="matrix(0,-1,1,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan3750"
+         x="386.50842"
+         y="834.94733"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:MS UI Gothic;-inkscape-font-specification:MS UI Gothic" /><tspan
+         sodipodi:role="line"
+         x="386.50842"
+         y="854.94733"
+         id="tspan3752"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:MS UI Gothic;-inkscape-font-specification:MS UI Gothic">　- .NET on Linux, Mac (, Windows)</tspan><tspan
+         sodipodi:role="line"
+         x="386.50842"
+         y="874.94733"
+         id="tspan3754"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:MS UI Gothic;-inkscape-font-specification:MS UI Gothic">　- i386, ia64/amd64, PPC, SPARC, s390,</tspan><tspan
+         sodipodi:role="line"
+         x="386.50842"
+         y="894.94733"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:MS UI Gothic;-inkscape-font-specification:MS UI Gothic"
+         id="tspan4610">　　ARM, MIPS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:MS UI Gothic;-inkscape-font-specification:MS UI Gothic"
+       x="46.231426"
+       y="-536.64203"
+       id="text3756"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3758"
+         x="46.231426"
+         y="-536.64203" /><tspan
+         sodipodi:role="line"
+         x="46.231426"
+         y="-516.64203"
+         id="tspan3760">monoランタイム (VM, JIT, GC, P/Invoke)</tspan><tspan
+         sodipodi:role="line"
+         x="46.231426"
+         y="-496.64206"
+         id="tspan3762">class libs (ASP.NET, ADO.NET, winforms, WCF...)</tspan><tspan
+         sodipodi:role="line"
+         x="46.231426"
+         y="-476.64206"
+         id="tspan3764">コンパイラ: C# 4.0 (, VB 8)</tspan><tspan
+         sodipodi:role="line"
+         x="46.231426"
+         y="-456.64206"
+         id="tspan3766">MonoDevelop IDE (SharpDevelopから派生)</tspan><tspan
+         sodipodi:role="line"
+         x="46.231426"
+         y="-436.64206"
+         id="tspan3768">GTK/GNOME bindings</tspan><tspan
+         sodipodi:role="line"
+         x="46.231426"
+         y="-416.64206"
+         id="tspan3770">banshee, f-spot, tomboy... </tspan><tspan
+         sodipodi:role="line"
+         x="46.231426"
+         y="-396.64206"
+         id="tspan3772">commercial: MonoTouch, Visual Studio (, MonoDroid?)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:MS UI Gothic;-inkscape-font-specification:MS UI Gothic"
+       x="353.31665"
+       y="776.86182"
+       id="text3774"
+       sodipodi:linespacing="100%"
+       transform="matrix(0,-1,1,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan3776"
+         x="353.31665"
+         y="776.86182"
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:MS UI Gothic;-inkscape-font-specification:MS UI Gothic">Mono: .NET everywhere</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:MS UI Gothic;-inkscape-font-specification:MS UI Gothic"
+       x="418.45364"
+       y="-298.37228"
+       id="text3778"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3780"
+         x="418.45364"
+         y="-298.37228">.NET Framework</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:url(#radialGradient4570);fill-opacity:1;stroke:none"
+       id="path3788"
+       sodipodi:cx="577.89282"
+       sodipodi:cy="1681.8116"
+       sodipodi:rx="279.16669"
+       sodipodi:ry="144.62138"
+       d="m 857.05951,1681.8116 c 0,79.8722 -124.98718,144.6214 -279.16669,144.6214 -154.1795,0 -279.16668,-64.7492 -279.16668,-144.6214 0,-79.8721 124.98718,-144.6213 279.16668,-144.6213 154.17951,0 279.16669,64.7492 279.16669,144.6213 z"
+       transform="translate(-2.370843,-1894.8337)" />
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:MS UI Gothic;-inkscape-font-specification:MS UI Gothic"
+       x="177.81317"
+       y="-561.53577"
+       id="text4612"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan4614"
+         x="177.81317"
+         y="-561.53577">Mono softwares</tspan></text>
+  </g>
+</svg>
