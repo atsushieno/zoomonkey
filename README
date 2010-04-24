@@ -1,0 +1,10 @@
+Zoomonkey is a prezi[*1]-like presentation tool based on Silverlight and Moonlight.
+
+I have no documentation so far, but you might be able to create your own presentation with your own "zmdata.json" file.
+
+Basically, the presentation data has a set of image files and action lists.
+Images are loaded dynamically from the URLs, and actions are mapped to [<<] and [>>] buttons.
+
+So far it's quite simple. Advanced features may come later.
+
+[*1] http://prezi.com/
