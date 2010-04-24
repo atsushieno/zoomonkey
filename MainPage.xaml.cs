@@ -36,13 +36,15 @@ namespace ZooMonkey
 		DoubleAnimation aniCX = new DoubleAnimation () { Duration = new Duration (TimeSpan.FromSeconds (1)) };
 		DoubleAnimation aniCY = new DoubleAnimation () { Duration = new Duration (TimeSpan.FromSeconds (1)) };
 		DoubleAnimation aniAn = new DoubleAnimation () { Duration = new Duration (TimeSpan.FromSeconds (1)) };
+		DoubleAnimation aniACX = new DoubleAnimation() { Duration = new Duration (TimeSpan.FromSeconds (1)) };
+		DoubleAnimation aniACY = new DoubleAnimation() { Duration = new Duration (TimeSpan.FromSeconds (1)) };
 		Storyboard story = new Storyboard ();
 		
 		void Run ()
 		{
 			HtmlPage.RegisterScriptableObject ("zooMonkeyController", this);
 
-			anims = new DoubleAnimation [] { aniSX, aniSY, aniCX, aniCY, aniAn };
+			anims = new DoubleAnimation [] { aniSX, aniSY, aniCX, aniCY, aniAn, aniACX, aniACY };
 			story.Children.Add (aniSX);
 			story.Children.Add (aniSY);
 			story.Children.Add (aniCX);
@@ -57,8 +59,14 @@ namespace ZooMonkey
 			Storyboard.SetTargetProperty (aniCY, new PropertyPath ("CenterY"));
 
 			story.Children.Add (aniAn);
+			story.Children.Add (aniACX);
+			story.Children.Add (aniACY);
 			Storyboard.SetTarget (aniAn, rotate_transform);
+			Storyboard.SetTarget (aniACX, rotate_transform);
+			Storyboard.SetTarget (aniACY, rotate_transform);
 			Storyboard.SetTargetProperty (aniAn, new PropertyPath ("Angle"));
+			Storyboard.SetTargetProperty (aniACX, new PropertyPath ("CenterX"));
+			Storyboard.SetTargetProperty (aniACY, new PropertyPath ("CenterY"));
 
 			var tg = new TransformGroup ();
 			tg.Children.Add (scale_transform);
@@ -155,6 +163,8 @@ namespace ZooMonkey
 			aniCX.To = action.Left;
 			aniCY.To = action.Top;
 			aniAn.To = action.Angle;
+			aniACX.To = action.Left;
+			aniACY.To = action.Top;
 
 			story.Begin ();
 		}
