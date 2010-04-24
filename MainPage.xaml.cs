@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
@@ -73,6 +73,7 @@ namespace ZooMonkey
 			if (zmdata.XamlUrl != null) {
 				DoDownload ("samples/zmdata.xaml", delegate (Stream stream) {
 					custom_xaml = (UIElement) XamlReader.Load (new StreamReader (stream).ReadToEnd ());
+					Canvas.SetZIndex (custom_xaml, -1);
 					Children.Add(custom_xaml);
 				});
 			}
