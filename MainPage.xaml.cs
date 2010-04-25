@@ -30,6 +30,7 @@ namespace ZooMonkey
 
 		ScaleTransform scale_transform = new ScaleTransform ();
 		RotateTransform rotate_transform = new RotateTransform ();
+		TranslateTransform translate_transform = new TranslateTransform ();
 		DoubleAnimation [] anims;
 		DoubleAnimation aniSX = new DoubleAnimation () { Duration = new Duration (TimeSpan.FromSeconds (1)) };
 		DoubleAnimation aniSY = new DoubleAnimation () { Duration = new Duration (TimeSpan.FromSeconds (1)) };
@@ -51,24 +52,25 @@ namespace ZooMonkey
 			story.Children.Add (aniCY);
 			Storyboard.SetTarget (aniSX, scale_transform);
 			Storyboard.SetTarget (aniSY, scale_transform);
-			Storyboard.SetTarget (aniCX, scale_transform);
-			Storyboard.SetTarget (aniCY, scale_transform);
+			Storyboard.SetTarget (aniCX, translate_transform);
+            Storyboard.SetTarget (aniCY, translate_transform);
 			Storyboard.SetTargetProperty (aniSX, new PropertyPath ("ScaleX"));
 			Storyboard.SetTargetProperty (aniSY, new PropertyPath ("ScaleY"));
-			Storyboard.SetTargetProperty (aniCX, new PropertyPath ("CenterX"));
-			Storyboard.SetTargetProperty (aniCY, new PropertyPath ("CenterY"));
+			Storyboard.SetTargetProperty (aniCX, new PropertyPath ("X"));
+			Storyboard.SetTargetProperty (aniCY, new PropertyPath ("Y"));
 
 			story.Children.Add (aniAn);
-			story.Children.Add (aniACX);
-			story.Children.Add (aniACY);
+//			story.Children.Add (aniACX);
+//			story.Children.Add (aniACY);
 			Storyboard.SetTarget (aniAn, rotate_transform);
-			Storyboard.SetTarget (aniACX, rotate_transform);
-			Storyboard.SetTarget (aniACY, rotate_transform);
+//			Storyboard.SetTarget (aniACX, rotate_transform);
+//			Storyboard.SetTarget (aniACY, rotate_transform);
 			Storyboard.SetTargetProperty (aniAn, new PropertyPath ("Angle"));
-			Storyboard.SetTargetProperty (aniACX, new PropertyPath ("CenterX"));
-			Storyboard.SetTargetProperty (aniACY, new PropertyPath ("CenterY"));
+//			Storyboard.SetTargetProperty (aniACX, new PropertyPath ("CenterX"));
+//			Storyboard.SetTargetProperty (aniACY, new PropertyPath ("CenterY"));
 
 			var tg = new TransformGroup ();
+			tg.Children.Add (translate_transform);
 			tg.Children.Add (scale_transform);
 			tg.Children.Add (rotate_transform);
 			this.RenderTransform = tg;
@@ -162,11 +164,11 @@ namespace ZooMonkey
 			Debug.WriteLine("{0},{1} {2}x, r{3}", action.Left, action.Top, action.Zoom, action.Angle);
 			aniSX.To = action.Zoom;
 			aniSY.To = action.Zoom;
-			aniCX.To = action.Left;
-			aniCY.To = action.Top;
+			aniCX.To = -action.Left;
+			aniCY.To = -action.Top;
 			aniAn.To = action.Angle;
-			aniACX.To = action.Left;
-			aniACY.To = action.Top;
+//			aniACX.To = action.Left;
+//			aniACY.To = action.Top;
 
 			story.Begin ();
 		}

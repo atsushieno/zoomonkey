@@ -72,7 +72,9 @@ namespace ZooMonkey
 		public double Zoom { get; set; }
 		[DataMember (IsRequired=false)]
 		public double Duration { get; set; }
-	}
+        [DataMember(IsRequired = false)]
+        public string Comment { get; set; }
+    }
 
 	[DataContract]
 	public class ZooMonkeyData
